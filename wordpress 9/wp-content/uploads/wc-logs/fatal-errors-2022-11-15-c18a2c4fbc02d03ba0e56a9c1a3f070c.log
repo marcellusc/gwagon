@@ -1,0 +1,2 @@
+2022-11-15T21:27:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress 9\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\Checkout.php on line 451
+

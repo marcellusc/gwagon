@@ -1,0 +1,111 @@
+/*
+Theme Name: Auto Dealer Lite
+Template: automobile-hub
+Text Domain: auto-dealer-lite
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-auto-dealer-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Auto Dealer Lite is a responsive, modern and versatile WordPress theme ideal for Auto Dealer Lite, ad listing, car dealership, ad posting, vehicle listing, directory listing, car selling, car rental, car repair and such related websites to showcase and grow your business online. This is the most advanced and comprehensive theme with all ad posting features including modern gallery, Review System, comparison, search filter, default layout, Bump up Ads & much more that you would want in a theme. It also includes an effective vehicle search functionality & car comparison feature that makes it very helpful for buyers to look after various Cars or Vehicle Models available. Start your business online with just one click demo importer. It is available with several colour options, fonts, custom widgets, and much more for all your classified business requirements. As the design is responsive it fits in all device screen size. It is also SEO-friendly to help your site with search engine ranking. It is translation-ready and allows to add custom shortcodes. It is well optimized for speed so the pages load faster without any glitches. It is cross-browser compatible and also compatible with many famous WordPress plugins like Elementor, WooCommerce and Contact form 7 and more.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, e-commerce, photography
+Version: 0.2.5
+Tested up to: 6.0
+Requires PHP: 5.6
+*/
+
+a:hover{
+    color: #0070b1;
+}
+
+a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,.search-box i,#theme-sidebar h3,#theme-sidebar a:hover,.headerbox i:hover, .headerbox i:hover:after,p.infotext,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a,.social-media i:hover,#about h3,#featured-car h6{
+    color: #00a8e8;
+}
+.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],#theme-sidebar .tagcloud a:hover,.headerbox i, .more-btn i,.headerbox i:after,#comments input[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,#return-to-top,.error-404 [type="submit"],button[type="submit"]{
+    background: #00a8e8;
+}
+#footer .tagcloud a:hover,.search_inner form.search-form{
+    border-color: #00a8e8;
+}
+
+h1, h2, h3, h4, h5, h6,.comment-body,.comment-metadata a.comment-edit-link,.box-info i{
+    color: #00171f;
+}
+.headerbox,#footer,.main-navigation ul ul,.car-button a:hover,.more-btn:hover{
+    background: #00171f;
+}
+.menubar{
+    border-color: #00171f;
+}
+
+.site-info {
+    background: #001016;
+}
+.menubar{
+    background: transparent;
+}
+
+/* Feature Car Css  */ 
+
+#featured-car {
+    background: #f7f7f7;
+}
+.cat-inner-box {
+    background: #fff;
+    border: solid 2px #e5e5e5;
+}
+.cat-inner-box img{
+    width: 100%;
+}
+.cat-inner-box h4 {
+    color: #676767;
+}
+.car-button a,.more-btn {
+    background: #00a8e8;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+.more-btn {
+    display: inline-block;
+}
+.more-btn i{
+    padding: 0;
+    background: transparent;
+}
+#about a{
+    color: #fff;
+}
+a.added_to_cart.wc-forward {
+    text-transform: uppercase;
+    margin-top: 1em;
+    padding: 10px 26px 10px 26px;
+    letter-spacing: 1px;
+    background: #00a8e8;
+    color: #fff;
+    font-weight: 600;
+}
+a.added_to_cart.wc-forward:hover {
+    background: #000;
+}
+
+@media screen and (max-width: 767px){
+    .toggle-nav button{
+        color: #00a8e8;
+    }
+    .sidenav{
+       background: #00171f; 
+    }
+    main#tp_content {
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .toggle-nav button{
+        color: #00a8e8;
+    }
+}

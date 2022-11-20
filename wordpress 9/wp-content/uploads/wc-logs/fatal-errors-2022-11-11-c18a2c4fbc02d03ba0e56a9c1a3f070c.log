@@ -1,0 +1,6 @@
+2022-11-11T14:29:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress 9\wp-content\plugins\elementor\core\base\background-task-manager.php on line 8
+
+2022-11-11T14:29:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress 9\wp-content\plugins\elementor\core\files\assets\svg\svg-handler.php on line 9
+
+2022-11-11T14:31:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wordpress 9\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version2\class-wc-rest-product-attributes-v2-controller.php on line 19
+
